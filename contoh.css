@@ -1,0 +1,169 @@
+*, html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body { 
+    background-color: rgba(117, 21, 21, 0.906);
+    
+}
+
+/* Navigation bar */
+    nav {
+        background-color: rgb(207, 207, 186);
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem 2rem;
+        position: fixed;      /* Biar menempel di atas */
+        top: 0;               /* Tempel di paling atas */
+        left: 0;
+        width: 100%;          /* Lebarnya full */
+        z-index: 1000;        /* Supaya di atas elemen lain */
+    }
+
+    nav ul {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        list-style: none;
+    }
+
+    nav div img {
+        width: 50px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: rgb(186, 168, 168);
+        font-weight: 600;
+        padding: 8px 0;
+        transition: all;
+        transition-duration: 300ms;
+        border-bottom: 1px solid rgba(240, 248, 255, 0);
+    }
+
+    nav ul li a:hover{
+        color: rgb(25, 90, 148);
+        border-bottom: 1px solid aliceblue;
+    }
+
+ /* Hero Section */
+.hero {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 70px; /* biar nggak ketutup navbar */
+}
+
+*, html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body { 
+    background-color: rgb(127, 30, 30);
+}
+body {
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), 
+                url("/A\ black\ background\ with\ royalty\ free\ stock\ image.jpeg") no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    color: white; /* biar teks lebih kontras */
+}
+
+/* Navigation bar */
+    nav {
+        background-color: rgba(96, 8, 8, 0.904);
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem 2rem;
+        position: fixed;      
+        top: 0;               
+        left: 0;
+        width: 100%;          
+        z-index: 1000;        
+    }
+
+    nav ul {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        list-style: none;
+    }bac
+
+    nav div img {
+        width: 50px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: rgb(216, 204, 204);
+        font-weight: 600;
+        padding: 8px 0;
+        transition: all;
+        transition-duration: 300ms;
+        border-bottom: 1px solid rgba(209, 23, 94, 0);
+    }
+
+    nav ul li a:hover{
+        color: rgb(200, 93, 35);
+        border-bottom: 1px solid rgb(255, 246, 240);
+    }
+
+ /* Hero Section */
+.head {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 70px; /* biar nggak ketutup navbar */
+}
+
+.head h1 {
+  font-size: 40px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  color: rgba(249, 248, 248, 0.628);
+  margin-bottom: 15px;
+}
+
+.table-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* agar selalu full layar */
+  padding-top: 70px; /* jarak agar tidak tertutup navbar */
+}
+
+table {
+  border-collapse: collapse;
+  background-color: rgb(236, 226, 134);
+  color: black;
+  min-width: 400px;
+}
+
+th, td {
+  border: 1px solid #1F5C3F;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+td {
+  background-color: #F6FFF6;
+  color: #2C2C2C;
+}
+
+th {
+  background-color:  #2E8B57;
+  font-weight: bold;
+  color: white;
+}
