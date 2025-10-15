@@ -1,0 +1,59 @@
+:root {
+  --bg: #f4f7fb;
+  --card: #ffffff;
+  --accent: #2b6cb0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Inter, Arial, sans-serif;
+  background: var(--bg);
+  margin: 0;
+  padding: 24px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  background: var(--card);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(4, 4, 43, 0.06);
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.buttons button {
+  margin-right: 8px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid rgba(0,0,0,0.08);
+  cursor: pointer;
+}
+
+.preview {
+  padding: 18px;
+  margin-top: 18px;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #fff, #fcfdff);
+}
+
+.preview .target {
+  margin: 10px 0;
+  padding: 8px 12px;
+  border-radius: 6px;
+}
+
+.note {
+  margin-top: 14px;
+  font-size: 13px;
+  color: #556;
+}
